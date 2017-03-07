@@ -174,4 +174,7 @@ var Tween = {
         }
     }
 }
-Math.tween = Tween;
+
+module.exports = {
+    tween: Tween
+}
